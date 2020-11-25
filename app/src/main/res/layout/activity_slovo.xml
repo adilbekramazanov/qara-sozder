@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+
+    tools:context=".Slovo">
+    <LinearLayout
+
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:src="@drawable/abailogo2"
+            android:contentDescription="Abai logo 2"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp">
+
+
+
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textStyle="italic"
+            android:fontFamily=""
+            ></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/title"
+        android:textStyle="bold"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Слово Сороковое: откуда ваша нелюбовь?">
+
+
+    </TextView>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:id="@+id/description"
+        android:text="Да, безусловно, наши предки уступали теперешним людям в образованности, учтивости, ухоженности и опрятности. Но обладали они двумя достоинствами, которых у нас теперь нет.
+
+Изживая в себе недостатки, доставшиеся нам от предков, мы растеряли эти достоинства. Если бы мы имели в характере своем решимость и усилия, направленные на приобретение новых качеств приложили к тому, чтобы сохранить старые, возможно, мы встали бы в ряд с другими народами. Поскольку нет решимости характера, вновь приобретенное более благоприятствует развитию в нас свойств демонических, нежели человеческих. Это — есть одна из серьезных причин утраты нами национальных достоинств.
+
+О каких качествах мы говорим? В стародавние времена были люди, которые звались “ел басы”, “топ басы”. Они решали споры, управляли жизнью общества. Простой народ, худо-бедно, занимался своими делами. Не принято было оспаривать решения “ел басы” и “топ басы” или бегать от одного к другому. Говорят: “Возьми альчик, если он удобен для твоей руки, сделай из него биту”. “Когда каждый сам себе бий, не ужиться и на бескрайних просторах, когда есть глава общины, не сгореть и в огне”. Люди, признав эту истину, приносили жертву святым духам, и помолясь, отдавали бразды правления всеобщему избраннику и впредь старались поддерживать во всем, скрывая его недостатки и славя достоинства. Относились к нему с должным почтением, слушались и неукоснительно повиновались, тогда и влиятельные лица не переступали пределов благоразумия. Как им было не заботиться о людях, когда все были братьями, и достояние у них было общее?
+
+И второе — люди свято берегли и дорожили единством. Стоило кому-то призвать на помощь других, упомянув при этом имена предков, как все бросались на выручку, забыв обо всех обидах к раздорах, охотно шли на уступки и жертвы. Говорили тогда в народе:
+
+“Кто не умеет простить вины ближнего, того чужой обидит”.
+
+“Братья ссорятся, но не отрекаются друг от друга”.
+
+“Если шестеро погрязли в раздорах, потеряют то, что в руках, если четверо пребывают в согласии, на них небесная благодать нисходит”.
+
+“Кто ищет верного пути, находит казну, кто ищет раздоров, находит беду”.
+
+Где теперь этот благородный дух общности и радение о чести?
+
+Они были обеспечены людской стойкостью, совестливостью, доблестью. Мы лишились их.
+
+У теперешних дружба — не дружелюбие, а вероломное коварство.
+
+Вражда — не отстаивание истины, а просто неумение жить в согласии."
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="14sp">
+
+
+    </TextView>
+
+</LinearLayout>
