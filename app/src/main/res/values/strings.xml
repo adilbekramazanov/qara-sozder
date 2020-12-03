@@ -1,8 +1,20 @@
 <resources>
-    <string name="app_name">Qara sózder</string>
-    <string name="language">rus</string>
-    <string name="slovo1_title">Слово Первое: немой глухому</string>
+    <!--region Content Descriptions-->
+    <string name="content_description_iv_activity_slovo_abai_logo" translatable="false">Abai logo Activity Slovo</string>
+    <string name="content_description_iv_activity_home_abai_logo" translatable="false">Abai logo Activity Home</string>
+    <!--endregion-->
+
+    <!--region Important strings-->
+    <string name="app_name" translatable="false">Qara sózder</string>
     <string name="app_admob_id" translatable="false">ca-app-pub-4821112313794601/7040481106</string>
+    <!--endregion-->
+
+    <!--region Language-->
+    <string name="language">RU</string>
+    <!--endregion-->
+
+    <!--region OTHER-->
+    <string name="slovo1_title">Слово Первое: немой глухому</string>
     <string name="slovo1_description"> Хорошо я жил или плохо, а пройдено немало: в борьбе и ссорах, судах и спорах, страданиях и тревогах дошел до преклонных лет, выбившись из сил, пресытившись всем, обнаружил бренность и бесплодность своих деяний, убедился в унизительности своего бытия. Чем теперь заняться, как прожить оставшуюся жизнь? Озадачивает то, что не нахожу ответа на свой вопрос.\n \n
 
 Править народом? Нет, народ неуправляем. Пусть этот груз взвалит на себя тот, кто пожелает обрести неисцелимый недуг, или пылкий юноша с неостывшим сердцем. А меня сохрани Аллах от непосильного бремени.\n \n
@@ -947,6 +959,5 @@
 
 Так что же мы уяснили для себя из этого Слова?
 </string>
-
-
+<!--endregion-->
 </resources>

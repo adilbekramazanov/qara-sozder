@@ -1,27 +1,37 @@
 package com.example.qaraszder;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.os.Handler;
-import android.view.View;
-import android.view.Window;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
+import android.preference.PreferenceManager;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.util.Locale;
+
+import static com.example.qaraszder.ConstSharedPref.MyCurrentLanguageSharedPrefKey;
 
 public class MainActivity extends AppCompatActivity {
 
-    private final int SPLASH_DISPLAY_LENGTH = 900;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        String languageDef = Locale.getDefault().getLanguage();
+        String sharedLanguage = sharedPreferences.getString(MyCurrentLanguageSharedPrefKey, languageDef);
 
-
-        getSupportActionBar().hide();
+        Locale locale = new Locale(sharedLanguage);
+        Locale.setDefault(locale);
+        Configuration config = new Configuration();
+        config.locale = locale;
+        getBaseContext().getResources().updateConfiguration(config, getBaseContext().getResources().getDisplayMetrics());
 
         setContentView(R.layout.activity_main);
+
+        int SPLASH_DISPLAY_LENGTH = 900;
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
