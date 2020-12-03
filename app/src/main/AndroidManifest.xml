@@ -12,9 +12,10 @@
         android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4821112313794601~6766017509"/>
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".Slovo" />
+            android:value="ca-app-pub-4821112313794601~6766017509" />
+
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SlovoActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
