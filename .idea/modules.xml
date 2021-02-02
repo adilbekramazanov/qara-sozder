@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Qara_sózder.iml" filepath="$PROJECT_DIR$/.idea/modules/Qara_sózder.iml" group="Qara_sózder" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Qara sózder/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/qaraszder.iml" filepath="$PROJECT_DIR$/.idea/modules/qaraszder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/qaraszder.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/qaraszder.app.iml" />
     </modules>
   </component>
 </project>
